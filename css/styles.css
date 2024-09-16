@@ -1,0 +1,260 @@
+/* GENERAL */
+:root {
+    --accent-color: #FF6C00;
+    --primary-color-dark-theme: #FFFFFF;
+    --primary-color-ligth-theme: #303030;
+    --suptitle-color-dark-theme:rgba(157, 164, 189, 0.6);
+    --suptitle-color-light-theme: #303030;
+    --primary-font: "Open Sans", system-ui;
+    --title-font: "Raleway", system-ui;
+    --section-description-color-theme-dark: #9DA4BD;
+    --section-description-color-theme-light: #555555;
+}
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+body {
+    font-family: var(--primary-font);
+    font-weight: 600;
+}
+
+/* ============= COMPONENTNS ============= */
+.modal-btn {
+    font-size: 12px;
+    line-height: 1.33;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.modal-btn-theme-dark {
+    color: var(--primary-color-dark-theme);
+}
+
+.modal-btn-theme-light {
+    color: var(--primary-color-ligth-theme);
+}
+
+.modal-btn:hover,
+.modal:focus {
+    background-color: var(--accent-color);
+    color: #FFFFFF;
+}
+
+.media-list-link {
+    font-size: 11px;
+    line-height: 1.36;
+    letter-spacing: 0.2em;
+    color: var(--primary-color-ligth-theme);
+    /* transform: rotate(-90deg); */
+}
+
+.media-list-link:hover,
+.media-list-link:focus {
+    color: var(--accent-color);
+}
+
+.suptitle {
+    font-size: 11px;
+    line-height: 1.36;
+    text-transform: uppercase;
+}
+
+.suptitle-theme-dark{
+    color: var(--suptitle-color-dark-theme);
+}
+
+.suptitle-theme-light {
+    color: var(--suptitle-color-light-theme);
+}
+
+.section-description {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.66;
+    letter-spacing: 0.02em;
+    color: var(--section-description-color-theme-dark);
+}
+
+.section-description-theme-dark {
+    color: var(--section-description-color-theme-dark);
+}
+
+.section-description-theme-light {
+    color: var(--section-description-color-theme-light);
+}
+
+.section-title {
+    font-family: var(--title-font);
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 1.16;
+    letter-spacing: 0.05em;
+}
+
+.section-title-theme-light {
+    color: var(--primary-color-ligth-theme);
+}
+
+.section-title-theme-dark {
+    color: var(--primary-color-dark-theme);
+}
+/* ============= /COMPONENTNS ============= */
+
+/* ============= HEADER ============= */
+.menu-link {
+    font-size: 12px;
+    line-height: 1.33;
+    letter-spacing: 0.1em;
+    color: var(--primary-color-dark-theme);
+}
+
+.menu-link:hover,
+.menu-link:focus {
+    color: var(--accent-color);
+}
+
+.contact-phone-number {
+    font-size: 12px;
+    letter-spacing: 0.1em;
+    line-height: 1.33;
+    text-transform: uppercase;
+    color: var(--primary-color-dark-theme);
+}
+
+.contact-phone-number:hover,
+.contact-phone-number:focus {
+    color: var(--accent-color);
+}
+/* ============= /HEADER ============= */
+
+/* ============= HERO - BarberShop ============= */
+.main-title {
+        font-family: var(--secondary-font);
+        font-weight: 700;
+        font-size: 72px;
+        line-height: 1.18;
+        letter-spacing: 0.05em;
+        color: var(--primary-color-dark-theme);
+}
+
+.switch {
+    font-size: 11px;
+    line-height: 1.36;
+    letter-spacing: 0.1em;  
+}
+
+.switch-back {
+    color: var(--suptitle-color-dark-theme);
+}
+
+.switch-forward {
+    color: var(--primary-color-dark-theme);
+}
+/* ============= /HERO - BarberShop ============= */
+
+/* ============= ABOUT ============= */
+.small-text-description {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.86;
+    letter-spacing: 0.02em;
+}
+/* ============= /ABOUT ============= */
+
+/* ============= SERVICES AND PRICES ============= */
+.table-prices {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.66;
+    letter-spacing: 0.02em;
+    color: var(--section-description-color-theme-dark);
+}
+/* ============= /SERVICES AND PRICES ============= */
+
+/* ============= DESCRIPTION ============= */
+.list-description {
+    color: var(--primary-color-ligth-theme);
+    line-height: 1.36;
+    text-align: center;
+}
+
+.list-description-text-main {
+    font-weight: 700;
+    font-size: 42px;
+    letter-spacing: 0.05em;
+}
+
+.list-description-text-secondary {
+    font-size: 11px;
+}
+/* ============= /DESCRIPTION ============= */
+
+/* ============= OUR BARBERS ============= */
+.barbers-list {
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: 0.02em;
+}
+.firstname-secondname-barber {
+    color: var(--primary-color-ligth-theme);
+    font-size: 18px;
+    line-height: 1.38;
+}
+
+.position-barber {
+    color: var(--accent-color);
+    font-size: 14px;
+    line-height: 1.36;
+}
+/* ============= /OUR BARBERS ============= */
+
+/* ============= GALLERY OF IMAGES ============= */
+/* ============= /GALLERY OF IMAGES ============= */
+
+/* ============= ONLINE-BOOKING ============= */
+/* ============= /ONLINE-BOOKING ============= */
+
+/* ============= CONTACTS ============= */
+.info {
+    font-style: normal;
+}
+.info-list{
+    color: var(--section-description-color-theme-dark);
+    font-size: 18px;
+    line-height: 1.6;
+    letter-spacing: 0.02em;
+}
+
+.info-list-link-address {
+    font-weight: 700;  
+    color: inherit
+}
+
+.info-list-link-contact {
+    font-weight: 400;
+    color: inherit
+}
+
+.working-hour {
+    font-size: 11px;
+    line-height: 1.36;
+    text-transform: uppercase;
+    color: var(--primary-color-dark-theme);
+}
+/* ============= /CONTACTS ============= */
+
+/* ============= FOOTER ============= */
+.copyright {
+    font-size: 11px;
+    line-height: 1.6;
+    letter-spacing: 0.2em;
+    color: var(--section-description-color-theme-dark);
+}
+/* ============= /FOOTER ============= */
